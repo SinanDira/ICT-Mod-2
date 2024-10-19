@@ -65,6 +65,14 @@ main, .nav-bar {
     padding: 1em;
 }
 
+.vegbox-ad {
+  float: right;
+  height: 970px;
+  width: 250px;
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.25);
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -104,10 +112,11 @@ footer {
   display: flex;
   flex-flow: row wrap;
   gap: 2rem;
-  width: 100%;
+  width: calc(100% - 260px);
   justify-content: space-between;
   align-items: stretch;
 }
+
 
 .flex-container > div {
   flex: 1 0 20rem;
